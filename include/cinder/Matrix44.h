@@ -23,7 +23,7 @@
 #pragma once
 
 #include "cinder/Cinder.h"
-#include "glm/mat4x4.hpp"
+#include "glm./mat4x4.h"
 
 namespace cinder { 
 

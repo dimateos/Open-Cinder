@@ -24,7 +24,7 @@
 #pragma once
 
 #include "cinder/Cinder.h"
-#include "glm/mat3x3.hpp"
+#include "glm./mat3x3.h"
 
 namespace cinder { 
 

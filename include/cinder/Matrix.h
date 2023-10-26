@@ -30,15 +30,15 @@
 #include "cinder/Matrix44.h"
 #include "cinder/Vector.h"
 
-#include "glm/mat3x3.hpp"
-#include "glm/mat4x4.hpp"
-#include "glm/gtc/matrix_inverse.hpp"
-#include "glm/gtc/type_ptr.hpp"
-#include "glm/gtc/matrix_access.hpp"
-#include "glm/gtx/transform.hpp"
-#include "glm/gtx/matrix_transform_2d.hpp"
-#include "glm/gtx/euler_angles.hpp"
-#include "glm/gtx/io.hpp"
+#include "glm./mat3x3.h"
+#include "glm./mat4x4.h"
+#include "glm./gtc/matrix_inverse.h"
+#include "glm./gtc/type_ptr.h"
+#include "glm./gtc/matrix_access.h"
+#include "glm./gtx/transform.h"
+#include "glm./gtx/matrix_transform_2d.h"
+#include "glm./gtx/euler_angles.h"
+#include "glm./gtx/io.h"
 
 namespace cinder {
 

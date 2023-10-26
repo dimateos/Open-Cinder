@@ -24,7 +24,7 @@
 
 #include "cinder/CinderMath.h"
 
-#include "glm/gtc/quaternion.hpp"
+#include "glm./gtc/quaternion.h"
 
 namespace cinder {
 

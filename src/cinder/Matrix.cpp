@@ -22,9 +22,9 @@
 
 #include "cinder/Matrix.h"
 
-#include "glm/gtx/matrix_operation.hpp"
-#include "glm/gtc/matrix_inverse.hpp"
-#include "glm/gtc/matrix_access.hpp"
+#include "glm./gtx/matrix_operation.h"
+#include "glm./gtc/matrix_inverse.h"
+#include "glm./gtc/matrix_access.h"
 
 namespace cinder {
 

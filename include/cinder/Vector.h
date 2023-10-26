@@ -35,13 +35,13 @@
 
 #include "cinder/CinderMath.h"
 
-#include "glm/vec2.hpp"
-#include "glm/vec3.hpp"
-#include "glm/vec4.hpp"
-#include "glm/gtc/type_ptr.hpp"
-#include "glm/gtx/io.hpp"
-#include "glm/gtx/norm.hpp"
-#include "glm/gtx/rotate_vector.hpp"
+#include "glm./vec2.h"
+#include "glm./vec3.h"
+#include "glm./vec4.h"
+#include "glm./gtc/type_ptr.h"
+#include "glm./gtx/io.h"
+#include "glm./gtx/norm.h"
+#include "glm./gtx/rotate_vector.h"
 
 namespace cinder {
 

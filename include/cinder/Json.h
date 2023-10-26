@@ -30,7 +30,7 @@
 #include "cinder/Color.h"
 #include "cinder/Matrix.h"
 #include "cinder/DataSource.h"
-#include "glm/gtc/type_ptr.hpp"
+#include "glm./gtc/type_ptr.h"
 #include <nlohmann/json.hpp>
 
 namespace cinder {

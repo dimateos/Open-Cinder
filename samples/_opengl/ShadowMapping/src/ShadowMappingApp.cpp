@@ -57,7 +57,7 @@
 #if ! defined( CINDER_GL_ES )
 	#include "cinder/CinderImGui.h"
 #endif
-#include "glm/gtx/euler_angles.hpp"
+#include "glm./gtx/euler_angles.h"
 
 using namespace ci;
 using namespace ci::app;

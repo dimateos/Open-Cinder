@@ -26,13 +26,13 @@
 
 #include "cinder/Cinder.h"
 
-#include "glm/gtc/type_ptr.hpp"
+#include "glm./gtc/type_ptr.h"
 
-#include "glm/gtx/io.hpp"
-#include "glm/gtx/norm.hpp"
-#include "glm/gtx/transform.hpp"
-#include "glm/gtx/transform2.hpp"
-#include "glm/gtx/euler_angles.hpp"
+#include "glm./gtx/io.h"
+#include "glm./gtx/norm.h"
+#include "glm./gtx/transform.h"
+#include "glm./gtx/transform2.h"
+#include "glm./gtx/euler_angles.h"
 
 namespace cinder {
 

@@ -30,11 +30,11 @@
 #include "cinder/CinderMath.h"
 #include "cinder/Matrix33.h"
 
-#include "glm/glm.hpp"
-#include "glm/gtc/quaternion.hpp"
-#include "glm/gtx/quaternion.hpp"
-#include "glm/gtc/matrix_access.hpp"
-#include "glm/gtc/matrix_transform.hpp"
+#include "glm./glm.h"
+#include "glm./gtc/quaternion.h"
+#include "glm./gtx/quaternion.h"
+#include "glm./gtc/matrix_access.h"
+#include "glm./gtc/matrix_transform.h"
 
 #include <algorithm>
 

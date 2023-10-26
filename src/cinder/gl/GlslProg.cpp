@@ -31,7 +31,7 @@
 #include "cinder/Noncopyable.h"
 #include "cinder/Utilities.h"
 
-#include "glm/gtc/type_ptr.hpp"
+#include "glm./gtc/type_ptr.h"
 
 #include <type_traits>
 
