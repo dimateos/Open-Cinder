@@ -1,2 +1,2 @@
 #define TINYEXR_IMPLEMENTATION
-#include "tinyexr.h"
+#include "tinyexr/tinyexr.h"

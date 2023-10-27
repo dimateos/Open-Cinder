@@ -17,8 +17,8 @@
 
 #if defined(ASIO_HAS_BOOST_REGEX)
 
-#include <boost/regex_fwd.hpp>
-#include <boost/regex/v4/match_flags.hpp>
+#include <boost/regex_fwd.h>
+#include <boost/regex/v4/match_flags.h>
 
 namespace boost {
 

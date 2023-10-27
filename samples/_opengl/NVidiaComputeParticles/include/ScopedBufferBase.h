@@ -1,6 +1,6 @@
 
 #pragma once
-#include <boost/noncopyable.hpp>
+#include <boost/noncopyable.h>
 #include <cinder/gl/BufferObj.h>
 
 #if defined( CINDER_MSW ) || defined( CINDER_LINUX )

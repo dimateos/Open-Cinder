@@ -1,5 +1,5 @@
 //
-// detail/type_traits.hpp
+// detail/type_traits.h
 // ~~~~~~~~~~~~~~~~~~~~~~
 //
 // Copyright (c) 2003-2021 Christopher M. Kohlhoff (chris at kohlhoff dot com)
@@ -20,31 +20,31 @@
 #if defined(ASIO_HAS_STD_TYPE_TRAITS)
 # include <type_traits>
 #else // defined(ASIO_HAS_STD_TYPE_TRAITS)
-# include <boost/type_traits/add_const.hpp>
-# include <boost/type_traits/add_lvalue_reference.hpp>
-# include <boost/type_traits/aligned_storage.hpp>
-# include <boost/type_traits/alignment_of.hpp>
-# include <boost/type_traits/conditional.hpp>
-# include <boost/type_traits/decay.hpp>
-# include <boost/type_traits/has_nothrow_copy.hpp>
-# include <boost/type_traits/has_nothrow_destructor.hpp>
-# include <boost/type_traits/integral_constant.hpp>
-# include <boost/type_traits/is_base_of.hpp>
-# include <boost/type_traits/is_class.hpp>
-# include <boost/type_traits/is_const.hpp>
-# include <boost/type_traits/is_convertible.hpp>
-# include <boost/type_traits/is_constructible.hpp>
-# include <boost/type_traits/is_copy_constructible.hpp>
-# include <boost/type_traits/is_destructible.hpp>
-# include <boost/type_traits/is_function.hpp>
-# include <boost/type_traits/is_object.hpp>
-# include <boost/type_traits/is_same.hpp>
-# include <boost/type_traits/remove_cv.hpp>
-# include <boost/type_traits/remove_pointer.hpp>
-# include <boost/type_traits/remove_reference.hpp>
-# include <boost/utility/declval.hpp>
-# include <boost/utility/enable_if.hpp>
-# include <boost/utility/result_of.hpp>
+# include <boost/type_traits/add_const.h>
+# include <boost/type_traits/add_lvalue_reference.h>
+# include <boost/type_traits/aligned_storage.h>
+# include <boost/type_traits/alignment_of.h>
+# include <boost/type_traits/conditional.h>
+# include <boost/type_traits/decay.h>
+# include <boost/type_traits/has_nothrow_copy.h>
+# include <boost/type_traits/has_nothrow_destructor.h>
+# include <boost/type_traits/integral_constant.h>
+# include <boost/type_traits/is_base_of.h>
+# include <boost/type_traits/is_class.h>
+# include <boost/type_traits/is_const.h>
+# include <boost/type_traits/is_convertible.h>
+# include <boost/type_traits/is_constructible.h>
+# include <boost/type_traits/is_copy_constructible.h>
+# include <boost/type_traits/is_destructible.h>
+# include <boost/type_traits/is_function.h>
+# include <boost/type_traits/is_object.h>
+# include <boost/type_traits/is_same.h>
+# include <boost/type_traits/remove_cv.h>
+# include <boost/type_traits/remove_pointer.h>
+# include <boost/type_traits/remove_reference.h>
+# include <boost/utility/declval.h>
+# include <boost/utility/enable_if.h>
+# include <boost/utility/result_of.h>
 #endif // defined(ASIO_HAS_STD_TYPE_TRAITS)
 
 namespace asio {

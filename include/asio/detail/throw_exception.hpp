@@ -18,7 +18,7 @@
 #include "asio/detail/config.hpp"
 
 #if defined(ASIO_HAS_BOOST_THROW_EXCEPTION)
-# include <boost/throw_exception.hpp>
+# include <boost/throw_exception.h>
 #endif // defined(ASIO_BOOST_THROW_EXCEPTION)
 
 namespace asio {

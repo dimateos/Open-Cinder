@@ -23,7 +23,7 @@
 #include "asio/detail/socket_types.hpp" // Must come before posix_time.
 #include "asio/basic_deadline_timer.hpp"
 
-#include <boost/date_time/posix_time/posix_time_types.hpp>
+#include <boost/date_time/posix_time/posix_time_types.h>
 
 namespace asio {
 

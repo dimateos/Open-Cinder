@@ -18,7 +18,7 @@
 #include "asio/detail/config.hpp"
 
 #if defined(ASIO_HAS_BOOST_LIMITS)
-# include <boost/limits.hpp>
+# include <boost/limits.h>
 #else // defined(ASIO_HAS_BOOST_LIMITS)
 # include <limits>
 #endif // defined(ASIO_HAS_BOOST_LIMITS)

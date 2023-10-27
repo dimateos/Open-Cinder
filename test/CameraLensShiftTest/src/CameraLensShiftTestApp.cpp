@@ -6,7 +6,7 @@
 #include "cinder/Font.h"
 #include "cinder/CameraUi.h"
 
-#include <boost/format.hpp>
+#include <boost/format.h>
 
 using namespace ci;
 using namespace ci::app;

@@ -22,7 +22,7 @@
  */
 
 #include "cinder/audio/dsp/ConverterR8brain.h"
-#include "CDSPResampler.h"
+#include "r8brain/CDSPResampler.h"
 
 #include <algorithm>
 

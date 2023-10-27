@@ -18,7 +18,7 @@
 #include "asio/detail/config.hpp"
 
 #if defined(ASIO_HAS_BOOST_BIND)
-# include <boost/bind/arg.hpp>
+# include <boost/bind/arg.h>
 #endif // defined(ASIO_HAS_BOOST_BIND)
 
 #include "asio/detail/push_options.hpp"

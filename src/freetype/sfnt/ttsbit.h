@@ -20,7 +20,7 @@
 #define TTSBIT_H_
 
 
-#include <ft2build.h>
+#include <freetype/ft2build.h>
 #include "ttload.h"
 
 

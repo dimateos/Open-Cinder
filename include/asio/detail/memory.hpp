@@ -19,13 +19,13 @@
 #include <memory>
 
 #if !defined(ASIO_HAS_STD_SHARED_PTR)
-# include <boost/make_shared.hpp>
-# include <boost/shared_ptr.hpp>
-# include <boost/weak_ptr.hpp>
+# include <boost/make_shared.h>
+# include <boost/shared_ptr.h>
+# include <boost/weak_ptr.h>
 #endif // !defined(ASIO_HAS_STD_SHARED_PTR)
 
 #if !defined(ASIO_HAS_STD_ADDRESSOF)
-# include <boost/utility/addressof.hpp>
+# include <boost/utility/addressof.h>
 #endif // !defined(ASIO_HAS_STD_ADDRESSOF)
 
 namespace asio {

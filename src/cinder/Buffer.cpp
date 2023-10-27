@@ -27,6 +27,7 @@
 #include "msw/zlib/zlib.h"
 #include <cmath>
 #include <iostream>
+#include <algorithm> // c++11 std::min/max
 #include <string.h>
 
 namespace cinder {

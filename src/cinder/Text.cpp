@@ -30,7 +30,7 @@
 
 #if defined( CINDER_UWP )
 	#define generic GenericFromFreeTypeLibrary
-	#include <ft2build.h>
+	#include <freetype/ft2build.h>
 	#include <freetype.h>
 	#undef generic
 #endif

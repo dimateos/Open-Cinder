@@ -22,7 +22,7 @@
 #elif defined(ASIO_HAS_STD_ATOMIC)
 # include <atomic>
 #else // defined(ASIO_HAS_STD_ATOMIC)
-# include <boost/detail/atomic_count.hpp>
+# include <boost/detail/atomic_count.h>
 #endif // defined(ASIO_HAS_STD_ATOMIC)
 
 namespace asio {

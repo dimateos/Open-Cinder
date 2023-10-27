@@ -44,7 +44,7 @@
 	#pragma comment(lib, "gdiplus")
 #elif defined( CINDER_UWP )
 	#include <dwrite.h>
-	#include <ft2build.h>
+	#include <freetype/ft2build.h>
 
 	// Note: generic is a reserved word in winrt c++/cx
 	// need to redefine it for freetype.h

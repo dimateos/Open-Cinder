@@ -16,7 +16,7 @@
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "asio/detail/config.hpp"
-#include <boost/coroutine/all.hpp>
+#include <boost/coroutine/all.h>
 #include "asio/any_io_executor.hpp"
 #include "asio/bind_executor.hpp"
 #include "asio/detail/memory.hpp"

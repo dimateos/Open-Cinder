@@ -20,7 +20,7 @@
 #if defined(ASIO_HAS_STD_ARRAY)
 # include <array>
 #else // defined(ASIO_HAS_STD_ARRAY)
-# include <boost/array.hpp>
+# include <boost/array.h>
 #endif // defined(ASIO_HAS_STD_ARRAY)
 
 namespace asio {

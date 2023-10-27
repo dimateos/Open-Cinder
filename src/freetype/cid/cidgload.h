@@ -20,7 +20,7 @@
 #define CIDGLOAD_H_
 
 
-#include <ft2build.h>
+#include <freetype/ft2build.h>
 #include "cidobjs.h"
 
 

@@ -20,7 +20,7 @@
 #define TTNAMEID_H_
 
 
-#include <ft2build.h>
+#include <freetype/ft2build.h>
 
 
 FT_BEGIN_HEADER

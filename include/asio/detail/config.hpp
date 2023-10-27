@@ -37,8 +37,8 @@
 # define ASIO_DISABLE_BOOST_THROW_EXCEPTION 1
 # define ASIO_DISABLE_BOOST_WORKAROUND 1
 #else // defined(ASIO_STANDALONE)
-# include <boost/config.hpp>
-# include <boost/version.hpp>
+# include <boost/config.h>
+# include <boost/version.h>
 # define ASIO_HAS_BOOST_CONFIG 1
 #endif // defined(ASIO_STANDALONE)
 

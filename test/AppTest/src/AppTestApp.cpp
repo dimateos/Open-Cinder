@@ -10,7 +10,7 @@
 
 #include "Resources.h"
 
-#include <boost/format.hpp>
+#include <boost/format.h>
 
 using namespace ci;
 using namespace ci::app;

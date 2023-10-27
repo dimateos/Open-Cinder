@@ -29,8 +29,8 @@
 //! don't include ogg's static callbacks (we rely on cinder's stream utils instead)
 #define OV_EXCLUDE_STATIC_CALLBACKS
 
-#include "vorbis/codec.h"
-#include "vorbis/vorbisfile.h"
+#include "oggvorbis/vorbis/codec.h"
+#include "oggvorbis/vorbis/vorbisfile.h"
 
 namespace cinder { namespace audio {
 

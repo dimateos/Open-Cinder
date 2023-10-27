@@ -18,7 +18,7 @@
 #include "asio/detail/config.hpp"
 
 #if defined(ASIO_HAS_BOOST_ASSERT)
-# include <boost/assert.hpp>
+# include <boost/assert.h>
 #else // defined(ASIO_HAS_BOOST_ASSERT)
 # include <cassert>
 #endif // defined(ASIO_HAS_BOOST_ASSERT)
