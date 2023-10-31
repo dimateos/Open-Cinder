@@ -288,7 +288,7 @@ namespace
 #ifdef IMGUI_STB_RECT_PACK_FILENAME
 #include IMGUI_STB_RECT_PACK_FILENAME
 #else
-#include "imstb_rectpack.h"
+#include "imgui/imstb_rectpack.h"
 #endif
 #endif
 
