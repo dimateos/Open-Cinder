@@ -57,8 +57,6 @@ class AppImplMswBasic : public AppImplMsw {
 	void		setupBlankingWindows( DisplayRef fullScreenDisplay );
 	void		destroyBlankingWindows();
 
-	void	refreshDisplays();
-
   private:
 	void		sleep( double seconds );
 

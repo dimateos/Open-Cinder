@@ -64,12 +64,9 @@ class CI_API PlatformMsw : public Platform {
 	void setThreadName( const std::string &name ) override;
 
 	const std::vector<DisplayRef>&	getDisplays() override;
-	void refreshDisplays( std::vector<DisplayRef> *connectedDisplays, std::vector<DisplayRef> *changedDisplays, std::vector<DisplayRef> *disconnectedDisplays );
+	void							refreshDisplays();
 	//! Returns the Display which corresponds to \a hMonitor. Returns main display on failure.
 	DisplayRef						findDisplayFromHmonitor( HMONITOR hMonitor );
-
-	//! Set the windows specific HWND, needed for some things like file dialogs.
-	void setHwnd( HWND hwnd )	{ mHwnd = hwnd; }
 
   private:
 	std::unique_ptr<std::ostream>	mOutputStream;
@@ -77,7 +74,6 @@ class CI_API PlatformMsw : public Platform {
 
 	bool							mDisplaysInitialized;
 	std::vector<DisplayRef>			mDisplays;
-	HWND							mHwnd = nullptr;
 };
 
 //! MSW-specific Exception for failed resource loading, reports windows resource id and type
