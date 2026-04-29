@@ -2225,9 +2225,6 @@
     <ClInclude Include="..\..\include\cinder\qtime\QuickTimeImplMsw.h">
       <Filter>Header Files\qtime</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\imgui\imgui_impl_dx12.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="nlohmann_json.natvis" />
